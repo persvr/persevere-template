@@ -22,11 +22,8 @@ exports.app =
 		}
 		return require.loader.loader.fetch(require.loader.resolvePkg(id.substring(0, id.length - 3),"","","")[0]);
 	}}, 
-		// make the root url redirect to /Page/Root  
-		require("jsgi/redirect-root").RedirectRoot(
-		 	// main Pintura handler 
-			pintura.app
-		)
+	 	// main Pintura handler 
+		pintura.app
 	);
 
 
