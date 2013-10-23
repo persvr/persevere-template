@@ -1,23 +1,19 @@
 {
-	"name": "",
+	"name": "persevere-template",
 	"author": "",
-	"dependencies": ["persevere"],
+	"version": "0.2.0",
 	"contributors": [],
-	"mappings":{
-		"perstore": "http://github.com/kriszyp/perstore/zipball/v0.2.4",
-		"commonjs-utils": "http://github.com/kriszyp/commonjs-utils/zipball/v0.2.2",
-		"pintura": "http://github.com/kriszyp/pintura/zipball/v0.2.5",
-		"promised-io": "http://github.com/kriszyp/promised-io/zipball/v0.2.2",
-		"templify": "http://github.com/dmachi/templify/zipball/master",
-		"patr": "http://github.com/kriszyp/patr/zipball/v0.2.2",
-		"rql": "http://github.com/kriszyp/rql/zipball/v0.2.2",
-		"persevere-client": "jar:http://github.com/kriszyp/persevere/zipball/master!/public/",
-		"wiky": "http://github.com/kriskowal/wiky/zipball/master",
-		"narwhal": "http://github.com/kriszyp/narwhal/zipball/master",
-		"jack": "jar:http://github.com/kriszyp/jack/zipball/master!/lib/jack/",
-		"transporter": "http://github.com/kriszyp/transporter/zipball/v0.2.2",
-		"jsgi-node": "jar:http://github.com/kriszyp/jsgi-node/zipball/v0.2.2!/lib/jsgi-node.js",
-		"multi-node": "http://github.com/kriszyp/multi-node/zipball/v0.2.2",
-		"tunguska": "http://github.com/kriszyp/tunguska/zipball/v0.2.2"
+    "maintainers": [
+      {
+  		"name": "Kris Zyp",
+  		"email": "kriszyp@gmail.com"
+  	  }
+    ],
+	"dependencies": {
+		"pintura": ">=0.3.1",
+		"perstore": ">=0.3.2",
+		"promised-io": ">=0.3.3",
+		"rql": ">=0.3.1",
+		"tunguska": ">=0.3.0"
 	}
 }
