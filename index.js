@@ -11,16 +11,13 @@ require.reloadable ? require.reloadable(setPinturaApp) : setPinturaApp();
 start(
 	// uncomment this to enable compression with node-compress
 	//require("pintura/jsgi/compress").Compress(
-	// make the root url redirect to /Page/Root  
-	require("./jsgi/redirect-root").RedirectRoot(
-		require("pintura/jsgi/cascade").Cascade([ 
+		require("pintura/jsgi/cascade").Cascade([
 		// cascade from static to pintura REST handling
 			// the main place for static files accessible from the web
 			Static({urls:["/public"], root: "public", directoryListing: true}),
 			Static({urls:["/packages"], root: require('pintura/util/packages-dir'), directoryListing: true}),
 			pinturaApp
 		])
-	)
 //)
 );
 
