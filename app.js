@@ -27,7 +27,6 @@ var ClassModel = Model(Notifying(require("perstore/stores").DefaultStore()),{});
 var fullModel = {
 	// put your models in here
 	User: User,
-	File: File,
 	Class: ClassModel
 };
 // initialize the data model
